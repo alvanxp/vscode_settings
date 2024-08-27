@@ -122,9 +122,5 @@
     {
         "key": "alt+h",
         "command": "workbench.action.focusPreviousGroup",
-    },
-    {
-        "key": "space j",
-        "command": "extension.aceJump.multiChar"
     }
 ]
