@@ -69,6 +69,8 @@
   "vim.statusBarColors.easymotioninputmode": "#007ACC",
   "vim.statusBarColors.surroundinputmode": "#007ACC",
   "workbench.colorCustomizations": {
+    "findThenJump.textDecorationForeground": "#ffffff",
+    "findThenJump.textDecorationBackground": "#06ad91",
     "statusBar.background": "#B48EAD",
     "statusBar.noFolderBackground": "#B48EAD",
     "statusBar.debuggingBackground": "#B48EAD",
@@ -357,7 +359,7 @@
         "j"
       ],
       "commands": [
-        "extension.aceJump.multiChar"
+        "findThenJump.initiate"
       ]
     },
     {
@@ -945,6 +947,4 @@
   ],
   "go.toolsManagement.autoUpdate": true,
   "cmake.showOptionsMovedNotification": false,
-  "aceJump.scroll.mode": "none",
-  "aceJump.finder.onlyInitialLetter": false,
 }
